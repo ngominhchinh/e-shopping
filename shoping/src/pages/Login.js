@@ -48,7 +48,7 @@ export default function Login() {
               <div className="form-group text-left">
                 <label>Password</label>
                 <Field
-                  name={"password"}
+                  name={"password"} type="password"
                   className={"form-control"}
                   placeholder="Input your password"
                 />
